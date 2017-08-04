@@ -1,0 +1,8 @@
+import pandas as pd
+import quandl
+
+df = quandl.get('WIKI/GOOGL')
+
+
+# Print dataset
+# print(df.head())
